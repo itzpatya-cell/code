@@ -1,0 +1,67 @@
+To study if,if else ,elif statements in python 
+
+
+
+1)To find greatest of 3 numbers 
+
+
+a = int(input("Enter first number: "))
+b = int(input("Enter second number: "))
+c = int(input("Enter third number: "))
+
+# Finding greatest
+if a > b and a > c:
+    print("Greatest number is:", a)
+elif b > c:
+    print("Greatest number is:", b)
+else:
+    print("Greatest number is:", c)
+
+
+
+2)To find given number is odd or even 
+
+
+num = int(input("Enter a number: "))
+
+if num % 2 == 0:
+    print("Number is Even")
+else:
+    print("Number is Odd")
+
+
+
+
+3)C program to check a character is uppercase or lowercase alphabate
+
+#include <stdio.h>
+
+int main() 
+    {char ch;
+    
+    printf("Enter a character: ");
+    scanf("%c", &ch);
+
+    if (ch >= 'A' && ch <= 'Z') {
+        printf("Uppercase Alphabet");}
+    
+    else if (ch >= 'a' && ch <= 'z') 
+        {printf("Lowercase Alphabet");}
+    
+    else 
+       { printf("Not an Alphabet");}
+    
+
+    return 0;}
+
+
+
+4)To find given input is number or character 
+
+
+p = input("Enter something: ")
+
+if p.isdigit():
+    print("It is a Number")
+else:
+    print("It is a Character/String")
