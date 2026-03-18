@@ -1,0 +1,41 @@
+To study Arithmetic Relational and Logical Operaters and Operands in Python
+
+# Program to add two numbers
+
+a = 10
+b = 20
+sum = a + b
+
+print("First number:", a)
+print("Second number:", b)
+print("Sum =", sum)
+
+
+# Program to demonstrate type casting
+a = 10
+b = float (a)
+
+print("Original value:", a)
+print("After type casting to float :" b)
+print("Type of b:", type(b))
+
+
+# Program to declare variables and show their types
+a = 10
+b = 3.5
+c = "Python"
+d = True
+
+print( a, type(a))
+print("Value of b:", b, "Type:", type(b))
+print("Value of c:", c, "Type:", type(c))
+print("Value of d:", d, "Type:", type(d))
+
+
+# Program to demonstrate logical operators
+a = 10
+b = 5
+
+print("a < 5 and b < 2 :", a > 5 and b > 2)
+print("a > 5 or b > 10 :", a > 5 or b > 10)
+print("not(a > 5) :", not(a > 5))
